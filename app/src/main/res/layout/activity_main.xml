@@ -129,8 +129,12 @@
         android:id="@+id/imageView"
         android:layout_width="147dp"
         android:layout_height="161dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/setB"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/setB"
+        app:layout_constraintTop_toTopOf="@+id/setB"
+        app:layout_constraintVertical_bias="0.75"
         app:srcCompat="@drawable/patito" />
 
     <Button
@@ -138,6 +142,7 @@
         style="@style/textShado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:backgroundTint="#F3E7CE"
         android:backgroundTintMode="src_in"
         android:shadowColor="#FBCAA4"
@@ -145,10 +150,11 @@
         android:textColor="#FF6D00"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/montoEditTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="@+id/montoEditTxt"
         app:layout_constraintTop_toBottomOf="@+id/montoEditTxt"
-        app:layout_constraintVertical_bias="0.22000003"
+        app:layout_constraintVertical_bias="0.0"
         app:strokeColor="#FF6D00"
         app:strokeWidth="2dp" />
 
