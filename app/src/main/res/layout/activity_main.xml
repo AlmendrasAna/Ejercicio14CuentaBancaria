@@ -137,6 +137,19 @@
         app:layout_constraintVertical_bias="0.75"
         app:srcCompat="@drawable/patito" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/couner_r"
+        android:gravity="center"
+        android:text="$"
+        app:layout_constraintBottom_toBottomOf="@+id/montoEditTxt"
+        app:layout_constraintEnd_toStartOf="@+id/montoEditTxt"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/montoEditTxt" />
+
     <Button
         android:id="@+id/setB"
         style="@style/textShado"
@@ -151,7 +164,7 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="@+id/montoEditTxt"
         app:layout_constraintTop_toBottomOf="@+id/montoEditTxt"
         app:layout_constraintVertical_bias="0.0"
